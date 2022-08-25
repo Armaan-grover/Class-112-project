@@ -1,0 +1,83 @@
+<html>
+
+<head>
+    <title>Hand guesture web app</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Fascinate&family=Rampart+One&display=swap"
+        rel="stylesheet">
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+    <script src=" https://unpkg.com/ml5@0.4.3/dist/ml5.min.js "></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <center>
+            <h1>Hand guesture web app!
+                <br>
+                <span>&#128076;</span>
+                <span>&#128077;</span>
+                <span> &#128078;</span>
+                <span>&#128079;</span>
+                <span>&#128080;</span>
+                <span> &#128400;</span>
+                <span> &#128406;</span>
+                <span> &#129304;</span>
+
+
+            </h1>
+            <br><br>
+
+            <p style="font-size: 22px;">Take your selfie to generate emoji
+                <br>
+                <br>
+                <b style="color: rgb(230, 90, 106)">Peace!</b>
+                <br>
+                <br>
+                <b style="color: rgb(112, 206, 154)">OK!</b>
+                <br>
+                <br>
+                <b style="color: rgb(228, 140, 252)">Thumbs Up!</b>
+                <br>
+                <br>
+            </p>
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <label>Webcam veiw</label>
+                <br>
+                <div id="camera"></div>
+                <br>
+                <button id="captureButton" onclick="capture()">Capture Image</button>
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <label>Prediction 1</label>
+                <h3 id="name1"></h3>
+                <h3 id="guesture1"></h3>
+
+            </div>
+
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <label>Snapshot - </label>
+                <br>
+                <div id="result"></div>
+                <br>
+                <button id="identify" onclick="identifyImage()">Identify Image</button>
+
+            </div>
+
+        </center>
+
+    </div>
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>

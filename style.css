@@ -1,0 +1,70 @@
+body {
+    color: white;
+    background-image: url("CqFbuS.jpg");
+    ;
+}
+
+span {
+    font-size: 30px;
+}
+
+#camera,
+#result {
+    border: 2px dashed whitesmoke;
+    width: 350px;
+    height: 300px;
+}
+
+#result_emotion_name,
+#result_emotion_name2 {
+    color: black;
+}
+
+.emotion_name {
+    font-size: 40px;
+}
+
+.emoji {
+    font-size: 48px;
+}
+
+h1 {
+    background-color: rgb(181, 111, 232);
+    color: rgb(76, 43, 72);
+    border-radius: 30px;
+    height: 100px;
+    font-family: 'Rampart One', cursive;
+    letter-spacing: 2px;
+}
+
+label {
+    color: rgb(176, 222, 255);
+    font-family: 'Fascinate', cursive;
+    font-size: 20px;
+}
+
+h3 {
+    color: rgb(117, 153, 176);
+    font-family: 'Fascinate', cursive;
+
+}
+
+#identify,
+#captureButton {
+    color: antiquewhite;
+    background-color: rgb(227, 49, 102);
+    font-family: 'Caveat', cursive;
+    width: 75px;
+    height: 50px;
+    border-radius: 20px;
+}
+
+p {
+    font-family: 'Fascinate', cursive;
+}
+
+#result,
+#camera {
+    border-color: black;
+    border-radius: 20px;
+}
